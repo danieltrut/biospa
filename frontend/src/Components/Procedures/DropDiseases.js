@@ -34,20 +34,7 @@ function DropDiseases(props) {
     console.log(diseasesValue);
   }
 
-  // function handleSelectChange(event, id) {
-  //   let newArray = diseasesValue.selected;
-  //   newArray = newArray.push(diseasesValue.id);
-  //   console.log(id);
-  //   console.log(diseasesValue.selected);
-
-  //   setDiseasesValue({ selected: newArray });
-  // }
-
-  //////////////////////////////////////////////////////////////////////////////
-
   return (
-    
-    
         <Autocomplete
           onChange={handleSelectChange}
           multiple={true}

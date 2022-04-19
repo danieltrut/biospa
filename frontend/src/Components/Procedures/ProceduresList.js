@@ -223,10 +223,6 @@ export default function EnhancedTable(props) {
     setSymptomsValue,
   } = props;
 
-  //   useEffect(() => {
-  //     loadProcedures();
-  //   }, []);
-  //   console.log(procedures);
 
   // Tabele header arrows for sorting
   const handleRequestSort = (event, property) => {
